@@ -709,6 +709,7 @@ address {
   position: absolute;
   right: 28px;
   top: 13px;
+  pointer-events: none;
 }
 /* Оформление модального окна */
 .backdrop {
