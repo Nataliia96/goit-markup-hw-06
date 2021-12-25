@@ -824,8 +824,8 @@ address {
 }
 .form-check-mark {
   position: absolute;
-  top: -70%;
-  left: 10px;
+  top: 4px;
+  left: 12px;
   opacity: 0;
 }
 .form-checkbox-text {
@@ -852,8 +852,8 @@ address {
 }
 .confirmation-checkbox:checked ~ .form-check-mark {
   fill: var(--white);
-  top: 5px;
-  left: 11px;
+  top: 4px;
+  left: 12px;
   background-color: var(--accent-color);
   opacity: 1;
 }
