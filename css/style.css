@@ -664,28 +664,39 @@ address {
   color: var(--white);
 }
 .form-subscription-label {
-  display: block;
-  width: 358px;
-  height: 50px;
-  margin-right: 12px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  pointer-events: none;
+
+  transition: transform 200ms var(--transition-cubic),
+    color 250ms var(--transition-cubic),
+    font-weight 250ms var(--transition-cubic);
+}
+.form-subscription-email:focus + .form-subscription-label,
+.form-subscription-email:not(:placeholder-shown) + .form-subscription-label {
+  transform: translateX(-70px);
+  color: var(--white);
+  font-weight: 700;
 }
 .form-subscription-email {
   display: block;
   width: 358px;
   height: 50px;
   padding: 15px;
+  margin-right: 12px;
 
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: transparent;
   color: var(--white);
 }
-.form-subscription-email::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
+
 .form-subscription-btn {
   display: flex;
   justify-content: space-between;
