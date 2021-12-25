@@ -940,15 +940,15 @@ address {
 /* Анимации */
 @keyframes fillChg {
   0% {
-    fill: rgb(224, 7, 159);
+    fill: rgb(145, 27, 109);
   }
-  25% {
-    fill: rgb(48, 5, 240);
+  30% {
+    fill: rgb(209, 206, 219);
   }
-  50% {
+  60% {
     fill: rgb(240, 7, 7);
   }
   100% {
-    fill: rgb(250, 149, 17);
+    fill: rgb(156, 90, 4);
   }
 }
