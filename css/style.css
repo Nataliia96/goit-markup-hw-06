@@ -827,6 +827,10 @@ address {
   position: absolute;
   top: 4px;
   left: 12px;
+
+  width: 16px;
+  height: 15px;
+
   opacity: 0;
   pointer-events: none;
 }
