@@ -853,7 +853,7 @@ address {
 .confirmation-checkbox:checked ~ .form-check-mark {
   fill: var(--white);
   top: 5px;
-  left: 12px;
+  left: 11px;
   background-color: var(--accent-color);
   opacity: 1;
 }
