@@ -871,6 +871,9 @@ address {
   pointer-events: none;
   z-index: 1;
 }
+.confirmation-checkbox:focus ~ .check-mark-wrapper {
+  fill: var(--accent-color);
+}
 .form-icon {
   position: absolute;
   top: 38px;
