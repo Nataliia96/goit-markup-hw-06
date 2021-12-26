@@ -865,7 +865,6 @@ address {
 }
 .confirmation-checkbox:checked ~ .form-check-mark {
   background-color: var(--accent-color);
-  border-color: var(--accent-color);
   fill: var(--white);
   opacity: 1;
   pointer-events: none;
